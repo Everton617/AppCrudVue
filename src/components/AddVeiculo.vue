@@ -23,11 +23,11 @@
                         </div>
                         <div class="form-group">
                             <label class="form-label mt-4">Modelo</label>
-                            <input type="email" class="form-control" v-model="veiculo.modelo" placeholder="Insira o Modelo">
+                            <input type="text" class="form-control" v-model="veiculo.modelo" placeholder="Insira o Modelo">
                         </div>
                         <div class="form-group">
                             <label class="form-label mt-4">Placa</label>
-                            <input type="email" class="form-control" v-model="veiculo.placa" placeholder="Insira a placa">
+                            <input type="text" class="form-control" v-model="veiculo.placa" placeholder="Insira a placa">
                         </div>
                         
                         <button class="btn btn-primary mt-4">Inserir</button>
@@ -93,7 +93,7 @@ export default {
                 alert(error.response.data.message);
             } else {
                 this.errors.push(error.response);
-            };
+            }
             }
         }
     }
