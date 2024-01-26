@@ -9,7 +9,7 @@
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
           <router-link to="/" class="nav-link" href="#">Lista de Proprietários
-            <span class="visually-hidden">(current)</span>
+            <span class="visually-hidden"></span>
           </router-link>
         </li>
         <li class="nav-item">
