@@ -83,7 +83,7 @@ export default {
                     this.revisao.veiculo_id = '';
                     this.revisao.dt_atual_revisao = '';
                     this.revisao.dt_proxima_revisao = '';
-                    this.revisao.decricao = '';
+                    this.revisao.descricao = '';
                     alert(response.data.message);
                 } else{
                     console.log('erro!')
@@ -94,7 +94,7 @@ export default {
                 alert(error.response.data.message);
             } else {
                 this.errors.push(error.response);
-            };
+            }
             }
         }
     }
